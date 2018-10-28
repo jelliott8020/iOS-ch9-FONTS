@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		03670A0621860CFA000FF565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670A0521860CFA000FF565 /* AppDelegate.swift */; };
-		03670A0821860CFA000FF565 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670A0721860CFA000FF565 /* ViewController.swift */; };
 		03670A0B21860CFA000FF565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03670A0921860CFA000FF565 /* Main.storyboard */; };
 		03670A0D21860CFC000FF565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03670A0C21860CFC000FF565 /* Assets.xcassets */; };
 		03670A1021860CFC000FF565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03670A0E21860CFC000FF565 /* LaunchScreen.storyboard */; };
+		03670A1821860E62000FF565 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670A1721860E62000FF565 /* FavoritesList.swift */; };
+		03670A1A21861997000FF565 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670A1921861997000FF565 /* RootViewController.swift */; };
+		03670A1C21862026000FF565 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03670A1B21862026000FF565 /* FontListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03670A0221860CFA000FF565 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03670A0521860CFA000FF565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03670A0721860CFA000FF565 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03670A0A21860CFA000FF565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03670A0C21860CFC000FF565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03670A0F21860CFC000FF565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03670A1121860CFC000FF565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03670A1721860E62000FF565 /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		03670A1921861997000FF565 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		03670A1B21862026000FF565 /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				03670A0521860CFA000FF565 /* AppDelegate.swift */,
-				03670A0721860CFA000FF565 /* ViewController.swift */,
 				03670A0921860CFA000FF565 /* Main.storyboard */,
 				03670A0C21860CFC000FF565 /* Assets.xcassets */,
 				03670A0E21860CFC000FF565 /* LaunchScreen.storyboard */,
 				03670A1121860CFC000FF565 /* Info.plist */,
+				03670A1721860E62000FF565 /* FavoritesList.swift */,
+				03670A1921861997000FF565 /* RootViewController.swift */,
+				03670A1B21862026000FF565 /* FontListViewController.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03670A0821860CFA000FF565 /* ViewController.swift in Sources */,
 				03670A0621860CFA000FF565 /* AppDelegate.swift in Sources */,
+				03670A1C21862026000FF565 /* FontListViewController.swift in Sources */,
+				03670A1821860E62000FF565 /* FavoritesList.swift in Sources */,
+				03670A1A21861997000FF565 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
