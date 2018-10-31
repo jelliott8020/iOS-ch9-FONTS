@@ -22,7 +22,7 @@ class FontListViewController: UITableViewController {
         tableView.estimatedRowHeight = cellPointSize
         
         if showsFavorites {
-            navigationItem.rightBarButtonItem = editButtonItem()
+            navigationItem.rightBarButtonItem = editButtonItem
         }
 
         // Uncomment the following line to preserve selection between presentations
